@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int e,m,sc,comp,hist;
+    float total,per,avg;
+    scanf("%d",&e);
+    scanf("%d",&m);
+    scanf("%d",&sc);
+    scanf("%d",&comp);
+    scanf("%d",&hist);
+    total=e+m+sc+comp+hist;
+    avg=total/5.0;
+    per=(total/500)*100;
+    printf("%.0f %.2f %.2f",total,avg,per);
+
+     
+    return 0;
+}
