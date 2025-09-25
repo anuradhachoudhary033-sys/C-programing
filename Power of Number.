@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,p,r;
+    scanf("%d%d",&a,&p);
+    r=pow(a,p);
+    printf("%d",r);
+    return 0;
+}
